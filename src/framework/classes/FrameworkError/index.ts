@@ -18,9 +18,12 @@ export class FrameworkError extends Error {
   private demiliter = '.'
 
   /**
-   * To string.
+   * Constructor.
+   *
+   * @param message
    */
-  toString() {
-    return `[${this.framework}${this.demiliter}${this.name}] ${this.message}`
+  constructor(message: string) {
+    super()
+    this.message = `[${this.framework}${this.demiliter}${this.name}] ${message}`
   }
 }
