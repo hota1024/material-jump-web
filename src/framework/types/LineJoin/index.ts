@@ -5,15 +5,15 @@ export enum LineJoin {
   /**
    * Mitter.
    */
-  Miter,
+  Miter = 'miter',
 
   /**
    * Round.
    */
-  Round,
+  Round = 'round',
 
   /**
    * Bevel.
    */
-  Bevel
+  Bevel = 'bavel'
 }
