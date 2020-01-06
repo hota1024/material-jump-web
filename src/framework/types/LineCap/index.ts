@@ -5,15 +5,15 @@ export enum LineCap {
   /**
    * Butt.
    */
-  Butt,
+  Butt = 'butt',
 
   /**
    * Round.
    */
-  Round,
+  Round = 'round',
 
   /**
    * Square.
    */
-  Square
+  Square = 'square'
 }
